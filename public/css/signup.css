@@ -1,0 +1,125 @@
+.header{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+form{
+    width:400px;
+    margin: auto;
+    /* border: 2px solid black; */
+    padding: 50px;
+    margin-top:10%;
+    background-color:whitesmoke;
+    box-shadow:0 0 10px 1px rgba(37, 73,214, 0.18);
+}
+#submit{
+    width: 100%;
+    background-color: rgb(20, 114, 20);
+    text-transform:uppercase;
+    color: white;
+   
+   border: 1px solid green;
+   padding:7px;
+   }
+   #submit:hover{
+       background-color:darkgreen;
+   }
+   .header h2{
+    margin: 1px;
+    text-align: center;
+    padding-top: 20px;
+}
+.form-group{
+    margin-bottom:20px ;
+    padding-bottom:10px ;
+    position: relative;
+    color: black;
+}
+.form-group label{
+    display: inline-block;
+    margin-bottom:2px ;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+.form-group input{
+    border:2px solid #f0f0f0;
+    display:block ;
+    border-radius: 4px;
+    font-family: inherit;
+    color: black;
+    font-size: 14px;
+    padding:7px;
+    width:100% ;
+   
+}
+.form-group.success input{
+    border-color:green ;
+}
+.form-group.error input{
+    border-color:red ;
+}
+.form-group.success  i.fa-check-circle{
+    visibility: visible;
+    color: green;
+}
+.form-group.error  i.fa-exclamation-circle{
+    visibility: visible;
+    color: red;
+}
+.form-group i{
+    position: absolute;
+    top:40px;
+    right:5px ;
+    left: 103%;
+    visibility: hidden;
+}
+.form-group small{
+    visibility: hidden;
+    position: absolute;
+    /* bottom: 0px; */
+    top:63px;
+   
+    left: 0;
+    
+}
+.form-group.error small{
+    visibility: visible;
+    color:red;
+}
+#message {
+    display:none;
+    background: yellow;
+    color: #000;
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+   
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 14px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }

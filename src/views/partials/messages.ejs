@@ -1,0 +1,42 @@
+<% if(typeof errors!='undefined'){%>
+    <% errors.forEach (function(error){%>
+      <div class="alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <%=error.msg %>
+            </div>
+        <%});%>
+        <%}%>
+        <% if(success_msg !=''){%>
+          <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <%=success_msg%>
+            </div>
+       <% }%>
+       <% if(error_msg !=''){%>
+        <div class="alert alert-danger alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <%=error_msg%>
+          </div>
+     <% }%>
+     <% if(error !=''){%>
+      <div class="alert alert-danger alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <%=error%>
+        </div>
+   <% }%>
+  <% if (erroraccess_msg!=''){%>
+     <div class="alert alert-danger fade in">
+      <button type="button" class="close" data-dismiss="alert" aria-label="true">×</button>
+      <!-- <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+      <h4>Oh snap! You got an error!</h4>
+      <p><%=erroraccess_msg%></p>
+      <p>
+        <a role="button" class="btn btn-danger" href="/books">Go back to books</a>
+        <a role="button" class="btn btn-danger" href="/authors">Go back to authors</a>
+        
+      </p>
+    </div>
+    <%}%>
+
+
+	

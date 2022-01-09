@@ -1,0 +1,136 @@
+
+
+        /* h3{
+            text-align:center;
+           
+        }
+    
+    #submit{
+        width: 100%;
+        background-color: rgb(20, 20, 167);
+        text-transform:uppercase;
+        color: white;
+       
+       border: 1px solid darkblue;
+       padding:7px;
+       }
+       #submit:hover{
+           background-color: rgb(11, 11, 128);
+       }
+   #form{
+        border: 2px solid rgb(75, 105, 93);
+       background-color:white;
+       padding: 10px 50px 50px 50px;
+       position:relative;
+        border-radius: 30px;
+        width:50rem;
+        margin: auto;
+        margin-top: 30vh;
+       }
+  
+    input:hover{border: 2px solid black;
+     /* outline: 0px;/* */
+/* }
+    #error1{
+        color:red;
+    }
+    #error2{
+        color:red;
+<<<<<<< HEAD
+    } */ 
+    /* Made with love by Mutiullah Samim*/
+
+/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+text-align: center;
+
+
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+
+}
+
+
+.card-header h3{
+color: white;
+text-align: center;
+display: flex;
+height: 50px;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.input-group-addon {
+width: 40px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+
+}
+
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width:60%;
+display: block;
+
+
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+.input-group{
+    text-align: center;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+color: red;
+}
+#error1{
+    visibility: hidden;
+    color: red;
+   
+}
+#error2{
+    visibility: hidden;
+    color: red;
+}
+    
+=======
+    }
+  
+>>>>>>> 6a98cfd8a95133e3864c407688206db0b3c0b75b
+    
+    
