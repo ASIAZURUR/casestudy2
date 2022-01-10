@@ -26,7 +26,7 @@ const loginSchema = new Schema({
         required: true,
         minlength:8,
         // unique:true
-    },
+    }
 //    confirmpassword:{
 //         type:String,
 //         required: true,
