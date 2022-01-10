@@ -8,6 +8,8 @@
     "start": "node app.js",
     "worker":"node app.js"
   },
+  "engines": {"node": "16.13.1",
+  "npm":"8.1.2"},
   "author": "Asia Zurur",
   "license": "ISC",
   "dependencies": {
