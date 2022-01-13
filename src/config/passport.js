@@ -1,7 +1,7 @@
 const LocalStrategy  =  require("passport-local").Strategy;
   const   mongoose    =  require("mongoose");
   // mongoose.connect('mongodb://localhost:27017/library');
-  mongoose.connect('mongodb+srv://userone:userone@asiafiles.w7kkj.mongodb.net/librarymodel?retryWrites=true&w=majority');
+  // mongoose.connect('mongodb+srv://userone:userone@asiafiles.w7kkj.mongodb.net/librarymodel?retryWrites=true&w=majority');
   const bycrypt=require('bcryptjs');
   //load usermodel
   const User=require('../model/User');
